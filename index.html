@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b4b4d328a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hii, I'm <br> <span>Rashika Gupta</span></h1>
+                <p1><i>I design tailored experiences that transform complexity <br>  into elegant simplicity.</i></p1>
+             </div>
+        </div>
+    </div>
+<!-- -----------------------------About Section------------------------- -->
+    <div id="about">
+           <div class="container">
+              <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-10-15 at 10.53.01_98366258.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p>I am an engineering professional with a strong passion for UI/UX design, committed to solving real-life problems through high-fidelity designs. My work combines creativity and functionality, ensuring that each design captivates while effectively addressing user needs. With solid knowledge of HTML and CSS, I bring my visions to life on the web. I continuously seek to expand my skills and stay updated with industry trends to make a meaningful impact in the design world.</p>
+
+                    <div class="tab-titles">
+                           <p class="tab-links action" onclick="opentab('Skills')">Skills</p>
+                           <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                           <p class="tab-links"onclick="opentab('Education')">Education</p>
+                           <p class="tab-links"onclick="opentab('Certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Skilled in HTML, CSS, JavaScript, and responsive web design </li>
+                            <li><span>Tools</span><br>Figma, Webflow, Wix, Canva and Sketch</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>July- Oct 2024</span><br>Graphic Designer at The Female Mentors</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-Current</span><br>B.Tech from Banasthali University</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Certificates">
+                        <ul>
+                            <li><span>Foundation of User Experience Design</span><br>by Google</li>
+                            <li><span>Web and App Design</span><br>by Udemy</li>    
+                        </ul>
+                    </div>
+
+                </div>
+              </div>
+           </div>  
+    </div>
+
+<!-- ----------------------------Services Section-------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>UI/UX Design</h2>
+                <p>I proviode user-centered design and prototyping, utilizing wireframing to create intuitive web and app interfaces. My approach focuses on understanding user needs and optimizing the overall experience. Additionally, I specialize in mapping user journeys, optimizing information architecture, and conducting usability testing for continuous improvement. I also provide interaction design, animations, and visual design with a strong emphasis on typography and color theory.</p>
+                
+            </div>
+
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Web Design</h2>
+                <p>I provide front-end development using HTML, CSS, and JavaScript to create dynamic and engaging web applications. My expertise includes responsive web design to ensure optimal viewing experiences across various devices. I focus on performance enhancement to ensure smooth interactions, along with ensuring cross-browser compatibility for a consistent user experience across different web browsers.</p>
+               
+            </div>
+
+            <div>
+                <i class="fas fa-mobile-alt"></i>
+                <h2>App Design</h2>
+                <p> I provide comprehensive app design services, focusing on creating intuitive and engaging user interfaces for mobile applications. My expertise includes user-centered design principles to ensure that each app meets the needs and expectations of its users. I specialize in interactive prototyping, allowing stakeholders to visualize the app's functionality before development </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------------------------------PORTFOLIO SECTION------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="MAIN PAGE.png" >
+                <div class="layer">
+                    <h3>Hotel Management Website</h3>
+                    <p>The hotel management project provides room booking, dining reservations, event management, and real-time Q&A for customer support.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="MAIN PAGE T.png" >
+                <div class="layer">
+                    <h3>Tense Detection Website</h3>
+                    <p>The tense detection tool identifies tenses accurately, providing real-time feedback and supporting multiple languages with a simple UI.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="MAIN PAGE.png" >
+                <div class="layer">
+                    <h3>Share Sathi App</h3>
+                    <p>The ride-sharing app connects users for convenient carpooling, offering real-time ride matching and cost-sharing options.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------------------------------------Contact Section-------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> guptarashi2503@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7828863849</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/rashika-gupta-498873258/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vibe.wid.rashi/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Downloads/Rashika_Gupta" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+   
+   
+
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+
+            for(tablink of tablinks){
+                tablink.classList.remove("action");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active");
+            }
+
+            event.currentTarget.classList.add("action");
+            document.getElementById(tabname).classList.add("active");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyCoAI5qMy-79SZo5W2xwlLkYiSEEDQDJvtrf6t7HayUAWixRSiGRMh9iCL6s2jkwJA8w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
